@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Challenges.Core;
+using Challenges.InputProcessingAndOutput;
 
-Console.WriteLine("Hello, World!");
+InputProcessingAndOutput.ProgramMap.RunSelectedProgram();
